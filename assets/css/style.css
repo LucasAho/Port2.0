@@ -3,7 +3,13 @@ body {
 }
 #aboutMe {
     font-size: 1.25rem;
+    line-height: 1.875rem;
 }
+
+footer{
+    bottom: 0;
+}
+
 display-3 {
     font-family: 'Pontano Sans', sans-serif;
 }
