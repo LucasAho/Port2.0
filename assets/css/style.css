@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(192, 220, 224);
+}
+#aboutMe {
+    font-size: 1.25rem;
+}
+display-3 {
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+    /*font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;*/
