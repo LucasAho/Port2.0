@@ -22,25 +22,50 @@
         <!--Site Container-->
         <div class="container">
 
-            <!--Email Form-->
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Name</label>
-                    <input type="name" class="form-control" placeholder="John Smith">
+            <!--Header Block--> 
+            <div class="row mt-1">
+                <div class= "col-12">
+                    <h1 class="float-left text-center font-weight-bold text-dark mt-3 mr-3">Contact Me</h1>
+                    <p class= "float-left text-sm mt-5 pt-1 text-left">Fill out the form and I'll get back to you soon</p>
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-            </form>
-            <!--Email Form-->
+            </div>
+            <!--Header Block-->  
 
+            <!--Email block-->
+            <div class="row">
+                <div class="col-9">
+                    <!--Email Form-->
+                    <form>
+                        <div class="form-group">
+                            <label for="name-input">Name</label>
+                            <input type="name" id="name-input" class="form-control" placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="email-input">Email address</label>
+                            <input type="email" class="form-control" id="email-input" placeholder="example@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="msg-input">Message</label>
+                            <textarea class="form-control" id="msg-input" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-dark" id="msg-submit" type="submit">Submit</button>
+                    </form>
+                    <!--Email Form-->
+                </div> 
+                
+                <div class="col-3 pl-5">
+                    <p>Click here to return to main page</p>
+                    <a href="index.html"><button class="btn btn-dark" id="home-btn">Home</button></a>
+                </div>
+                
+            </div>
+            <!--Email block-->
         </div>
         <!--Site Container-->
 
     </body>
+    
+    <!--JS Reference-->    
+    <script src="assets/javascript/app.js"></script>
+
 </html>
