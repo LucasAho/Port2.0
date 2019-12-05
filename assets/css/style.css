@@ -1,9 +1,18 @@
-body {
-   background-color: rgb(192, 220, 224);
-}
-#aboutMe {
+* {
     font-size: 16px;
     line-height: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+p {
+    font-size: 16px;
+    line-height: 24px;
+}
+   /*font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;*/
+
+body {
+   background-color: rgb(192, 220, 224);
 }
 
 .profile-image {
@@ -23,8 +32,8 @@ body {
 
 .logo {
     justify-content: center;
-    width: 20%;
-    height: 20%;
+    width: 30%;
+    height: 30%;
 }
 
 #navBar {
@@ -49,12 +58,13 @@ body {
     position: absolute;
 }
 
-header {
+.head {
     font-family: 'Pontano Sans', sans-serif;
-    font-size: 24px;
-    line-height: 32px;
+
+}
+.about {
+    font-family: 'Pontano Sans', sans-serif;
+
 }
 
-    /*font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Asap Condensed', sans-serif;
-    font-family: 'Big Shoulders Display', cursive;*/
+ 
