@@ -7,12 +7,24 @@ body {
 }
 
 .profile-image {
-    justify-content: right;
-    
+    width:1296px;
+    height:1936px;
+    max-width: 30%;
+    height: auto;    
 }
 
 #email-col {
    margin-bottom: auto; 
+}
+/* 
+.link {
+    border: 1px solid rgba(0,0,0,.125);
+} */
+
+.logo {
+    justify-content: center;
+    width: 20%;
+    height: 20%;
 }
 
 #navBar {
